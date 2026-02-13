@@ -1,0 +1,21 @@
+Projeto feito por Pedro Ammes, para acessar entre no link: https://pedro-ammes.com.br
+
+# Sobre o Projeto:
+    A ideia do projeto é criar um site de notícias/blog generalizado com o foco em estudos de programação e melhor entendimento sobre produção profissional no geral.
+
+# Tecnologias Usadas:
+
+## Frontend
+    - Angular (JS/TS)
+    - Tailwindcss ?
+    - Nginx
+    - Docker
+    
+## Backend
+    - FastAPI (Python)
+    - MySQL (Database)
+    - Docker
+
+# Outras Informações:
+    O projeto terá ênfase no estudo de: docker, nginx e database;
+    Então essas partes em questão tentarei documentar o maximo possível para fins didáticos.
