@@ -19,3 +19,10 @@ Projeto feito por Pedro Ammes, para acessar entre no link: https://pedro-ammes.c
 # Outras Informações:
     O projeto terá ênfase no estudo de: docker, nginx e database;
     Então essas partes em questão tentarei documentar o maximo possível para fins didáticos.
+
+# Informações de Build e Deploy:
+    Na máquina local:
+    - docker compose build
+    Na VPS:
+    - docker compose down
+    - docker compose up -d
