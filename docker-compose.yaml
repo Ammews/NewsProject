@@ -1,0 +1,24 @@
+services:
+  frontend:
+    build: ./frontend 
+    image: ammes/frontend:1.0
+
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - "/etc/letsencrypt:/etc/letsencrypt:ro"
+    networks:
+      - public_network
+
+
+  backend:
+    build: ./backend
+    image: ammes/backend:1.0
+
+    networks:
+      - public_network
+
+networks:
+  public_network:
+    driver: bridge

@@ -18,5 +18,6 @@ RUN npm run build -- --configuration production
 FROM nginx:alpine
 
 #copia a imagem feita anteriormente e manda pra pasta raiz que roda no nginx
-COPY --from=build /app/dist/frontend/browser /usr/share/nginx/html
+
 COPY nginx.conf /etc/nginx/nginx.conf
+COPY --from=build /app/dist/frontend/browser /usr/share/nginx/html
