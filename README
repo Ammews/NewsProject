@@ -24,5 +24,4 @@ Projeto feito por Pedro Ammes, para acessar entre no link: https://pedro-ammes.c
     Na máquina local:
     - docker compose build
     Na VPS:
-    - docker compose down
-    - docker compose up -d
+    - docker stack deploy -c docker-compose.yml newsproject
