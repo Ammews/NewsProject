@@ -23,6 +23,7 @@ def readSecret(path):
 # DB_HOST = readSecret(os.getenv("DB_HOST_FILE"))
 # DB_PORT = int(os.getenv("DB_PORT")) ## Esse não é dado sensível, não esta no docker secrets
 
+## Essas linhas sao usadas APENAS pra rodar o sistema localmente, quando for buildar deve usar as linhas comentadas acima
 DB_USER = os.getenv("DB_USER")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 DB_NAME = os.getenv("DB_NAME")

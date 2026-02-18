@@ -22,6 +22,7 @@ Projeto feito por Pedro Ammes, para acessar entre no link: https://pedro-ammes.c
 
 # Informações de Build e Deploy:
     Na máquina local:
+    - Mudar o db.py -> descomentar linhas das variaveis de ambiente
     - docker compose build
     Na VPS:
     - docker stack deploy -c docker-compose.yml newsproject
